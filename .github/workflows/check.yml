@@ -1,0 +1,38 @@
+name: 校验订阅源数据
+
+on:
+  push:
+    paths:
+      - "games.json"
+      - "tools/validate.py"
+  schedule:
+    # 每天北京时间 09:00 跑一次；数据过期会让工作流变红，提醒更新
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 校验 games.json
+        run: |
+          code=0
+          python tools/validate.py games.json --strict > result.txt 2>&1 || code=$?
+          cat result.txt
+          {
+            echo "### 订阅源校验"
+            echo ""
+            echo '```'
+            cat result.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$code" -ne 0 ]; then
+            echo "::error::数据校验未通过，通常是某个版本/卡池已过期，需要更新 games.json"
+          fi
+          exit $code
