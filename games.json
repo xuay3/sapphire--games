@@ -1,0 +1,332 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-11-20T16:54:41+08:00",
+  "provenance": "官方公告原文 + 公开公告汇总；每条附来源链接，未核实的字段为 null",
+  "note": "时间为 null 的字段表示官方尚未公布，组件里显示「待公布」；明日方舟的寻访时间来自 PRTS（第三方），待官方核实",
+  "games": [
+    {
+      "id": "genshin",
+      "name": "原神",
+      "version": {
+        "name": "7.2",
+        "start": "2026-11-04T11:00:00+08:00",
+        "end": "2026-12-16T11:00:00+08:00",
+        "endNote": "7.3 版本开启时间"
+      },
+      "pools": [
+        {
+          "name": "角色活动祈愿 · 7.2 第1期",
+          "type": "character",
+          "start": "2026-11-04T11:00:00+08:00",
+          "end": "2026-11-24T18:00:00+08:00",
+          "featured": [
+            "米提亚",
+            "芙宁娜"
+          ]
+        },
+        {
+          "name": "活动祈愿 · 7.2 第2期",
+          "type": "character",
+          "start": "2026-11-24T18:00:00+08:00",
+          "end": "2026-12-15T15:00:00+08:00",
+          "featured": [
+            "兹白",
+            "莉奈娅"
+          ]
+        },
+        {
+          "name": "集录祈愿「炎天铸名」",
+          "type": "standard",
+          "start": "2026-11-24T18:00:00+08:00",
+          "end": "2026-12-15T15:00:00+08:00",
+          "featured": [
+            "瓦雷莎",
+            "恰斯卡",
+            "希诺宁",
+            "玛拉妮",
+            "基尼奇"
+          ]
+        }
+      ],
+      "source": "https://genshin.hoyoverse.com/zh-cn/news/detail/167139",
+      "sourceAlt": "https://genshin.hoyoverse.com/zh-cn/news/detail/167370",
+      "confidence": "mixed",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "hsr",
+      "name": "崩坏：星穹铁道",
+      "version": {
+        "name": "4.7",
+        "start": "2026-11-11T11:00:00+08:00",
+        "end": "2026-12-22T15:00:00+08:00",
+        "endNote": "主要跃迁结束；4.8 更新时间以官方公告为准"
+      },
+      "pools": [
+        {
+          "name": "主要跃迁「阿哈」",
+          "type": "character",
+          "start": "2026-11-11T11:00:00+08:00",
+          "end": "2026-12-22T15:00:00+08:00",
+          "featured": [
+            "阿哈"
+          ]
+        },
+        {
+          "name": "角色活动跃迁 · 上半",
+          "type": "character",
+          "start": "2026-11-11T11:00:00+08:00",
+          "end": "2026-12-02T11:59:00+08:00",
+          "featured": [
+            "银狼LV.999",
+            "火花",
+            "爻光"
+          ]
+        },
+        {
+          "name": "角色活动跃迁 · 下半",
+          "type": "character",
+          "start": "2026-12-02T12:00:00+08:00",
+          "end": "2026-12-22T15:00:00+08:00",
+          "featured": [
+            "黄泉",
+            "丹恒•饮月",
+            "景元"
+          ]
+        }
+      ],
+      "source": "https://bannerhistory.app/zh/hsr-pickup-history",
+      "confidence": "mixed",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "zzz",
+      "name": "绝区零",
+      "version": {
+        "name": "3.3",
+        "start": "2026-10-21T11:00:00+08:00",
+        "end": "2026-12-01T14:59:00+08:00",
+        "endNote": "下半频段结束时间"
+      },
+      "pools": [
+        {
+          "name": "限时频段 · 下半",
+          "type": "character",
+          "start": "2026-11-11T12:00:00+08:00",
+          "end": "2026-12-01T14:59:00+08:00",
+          "featured": [
+            "赛维里安",
+            "诺姆"
+          ]
+        },
+        {
+          "name": "限时频段 · 上半",
+          "type": "character",
+          "start": "2026-10-21T11:00:00+08:00",
+          "end": "2026-11-11T11:59:00+08:00",
+          "featured": [
+            "菲欧妮",
+            "维琳娜"
+          ]
+        }
+      ],
+      "source": "https://bannerhistory.app/zh/zzz-pickup-history",
+      "confidence": "mixed",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "wuwa",
+      "name": "鸣潮",
+      "version": {
+        "name": "3.8「旧梦凋零的百合」",
+        "start": "2026-11-12T11:00:00+08:00",
+        "end": "2026-12-22T03:59:00+08:00",
+        "endNote": "官网写「更新后 ~ 12月22日维护前」，4.0 于 12/22 开启"
+      },
+      "pools": [
+        {
+          "name": "「盛放于昨日梦土的花朵」",
+          "type": "character",
+          "start": "2026-11-12T11:00:00+08:00",
+          "end": "2026-12-03T09:59:00+08:00",
+          "featured": [
+            "莉莉"
+          ]
+        },
+        {
+          "name": "「符文烁醒之刻」",
+          "type": "character",
+          "start": "2026-11-12T11:00:00+08:00",
+          "end": "2026-12-03T09:59:00+08:00",
+          "featured": [
+            "西格莉卡"
+          ]
+        },
+        {
+          "name": "「倦客不知身近远」",
+          "type": "character",
+          "start": "2026-11-12T11:00:00+08:00",
+          "end": "2026-12-03T09:59:00+08:00",
+          "featured": [
+            "仇远"
+          ]
+        },
+        {
+          "name": "「牵翎祈万声」",
+          "type": "character",
+          "start": "2026-12-03T10:00:00+08:00",
+          "end": "2026-12-21T11:59:00+08:00",
+          "featured": [
+            "秧秧·玄翎"
+          ]
+        },
+        {
+          "name": "「斟雨祝荷风」",
+          "type": "character",
+          "start": "2026-12-03T10:00:00+08:00",
+          "end": "2026-12-21T11:59:00+08:00",
+          "featured": [
+            "穗穗"
+          ]
+        },
+        {
+          "name": "「雪色所映千般未来」",
+          "type": "character",
+          "start": "2026-12-03T10:00:00+08:00",
+          "end": "2026-12-21T11:59:00+08:00",
+          "featured": [
+            "绯雪"
+          ]
+        }
+      ],
+      "source": "https://mc.kurogames.com/main/news/detail/5779",
+      "sourceAlt": "https://mc.kurogames.com/main/news/detail/5748",
+      "confidence": "official",
+      "note": "官方长图只给到日期，卡池时刻按版本维护结束 11:00 与下半开启 10:00 推定",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "arknights",
+      "name": "明日方舟",
+      "version": {
+        "name": "SideStory「时间啊，向前！」",
+        "start": "2026-11-01T12:00:00+08:00",
+        "end": "2026-11-22T03:59:00+08:00",
+        "endNote": "PRTS 自动同步（当前活动结束时间）"
+      },
+      "pools": [
+        {
+          "name": "联合行动24",
+          "type": "other",
+          "start": "2026-11-15T16:00:00+08:00",
+          "end": "2026-11-29T03:59:00+08:00",
+          "featured": [
+            "林",
+            "焰影苇草",
+            "赤刃明霄陈",
+            "可露希尔"
+          ]
+        },
+        {
+          "name": "卫戍寻访01",
+          "type": "other",
+          "start": "2026-11-08T16:00:00+08:00",
+          "end": "2026-12-02T03:59:00+08:00",
+          "featured": [
+            "Mon3tr",
+            "烛煌",
+            "真言",
+            "逻各斯",
+            "乌尔比安",
+            "引星棘刺",
+            "锏",
+            "玛恩纳",
+            "忍冬",
+            "白铁"
+          ]
+        }
+      ],
+      "source": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88/%E9%99%90%E6%97%B6%E5%AF%BB%E8%AE%BF",
+      "sourceAlt": "https://prts.wiki/w/卡池一览/限时寻访",
+      "updateRef": "B站 UP 罗德岛蜜饼工坊 / 逻辑元（版本排期参考）",
+      "confidence": "auto",
+      "note": "由 tools/fetch_arknights.py 从 PRTS 自动同步",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "endfield",
+      "name": "明日方舟：终末地",
+      "version": {
+        "name": "「丹青渡」",
+        "start": "2026-10-15T12:00:00+08:00",
+        "end": "2026-11-25T05:00:00+08:00",
+        "endNote": "森空岛 WIKI 倒计时换算（当前版本活动结束）"
+      },
+      "pools": [
+        {
+          "name": "烟火邀星河",
+          "type": "character",
+          "start": "",
+          "end": "2026-11-25T05:00:00+08:00",
+          "featured": []
+        },
+        {
+          "name": "「烟火邀星河」特许寻访",
+          "type": "character",
+          "start": "2026-11-05T12:00:00+08:00",
+          "end": null,
+          "featured": [
+            "明河"
+          ]
+        }
+      ],
+      "source": "https://wiki.skland.com/endfield",
+      "sourceAlt": "https://endfield.hypergryph.com/news/6094",
+      "updateRef": "B站 UP 罗德岛蜜饼工坊 / 逻辑元（版本排期参考）",
+      "confidence": "auto",
+      "note": "寻访与剩余时间由 tools/fetch_endfield.py 从森空岛 WIKI 自动同步",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "nikki",
+      "name": "无限暖暖",
+      "version": {
+        "name": "2.11「时光缝合的扉页」",
+        "start": "2026-10-30T11:00:00+08:00",
+        "end": null,
+        "endNote": "3.0 版本「昨日之城，明日之声」日期未公布"
+      },
+      "pools": [
+        {
+          "name": "「何人消隐于祷声」限定共鸣（复刻）",
+          "type": "character",
+          "start": "2026-11-13T11:00:00+08:00",
+          "end": "2026-11-27T01:29:00+08:00",
+          "featured": [
+            "隐于祷音",
+            "无声颂歌"
+          ]
+        },
+        {
+          "name": "「予大地以时光」限定共鸣",
+          "type": "character",
+          "start": "2026-11-13T11:00:00+08:00",
+          "end": null,
+          "featured": []
+        },
+        {
+          "name": "「献给初雪的祈愿」限定共鸣",
+          "type": "character",
+          "start": "2026-11-13T11:00:00+08:00",
+          "end": null,
+          "featured": []
+        }
+      ],
+      "source": "https://infinitynikki.nuanpaper.com/news/1092",
+      "sourceAlt": "https://infinitynikki.nuanpaper.com/news/1102",
+      "confidence": "official",
+      "note": "官网只确认随 11-13 版本更新开启，未发布含起止时刻的共鸣公告",
+      "updatedAt": "2026-11-20"
+    }
+  ]
+}
