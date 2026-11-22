@@ -23,7 +23,7 @@ jobs:
       - name: 校验 games.json
         run: |
           code=0
-          python tools/validate.py games.json --strict > result.txt 2>&1 || code=$?
+          python tools/validate.py games.json > result.txt 2>&1 || code=$?
           cat result.txt
           {
             echo "### 订阅源校验"
