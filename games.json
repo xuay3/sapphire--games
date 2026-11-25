@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-24T16:58:33+08:00",
+  "updatedAt": "2026-11-25T15:36:11+08:00",
   "provenance": "官方公告原文 + 公开公告汇总；每条附来源链接，未核实的字段为 null",
   "note": "时间为 null 的字段表示官方尚未公布，组件里显示「待公布」；明日方舟的寻访时间来自 PRTS（第三方），待官方核实",
   "games": [
@@ -251,7 +251,7 @@
       "updateRef": "B站 UP 罗德岛蜜饼工坊 / 逻辑元（版本排期参考）",
       "confidence": "auto",
       "note": "由 tools/fetch_arknights.py 从 PRTS 自动同步",
-      "updatedAt": "2026-11-24"
+      "updatedAt": "2026-11-25"
     },
     {
       "id": "endfield",
@@ -259,10 +259,17 @@
       "version": {
         "name": "「丹青渡」",
         "start": "2026-10-15T12:00:00+08:00",
-        "end": "2026-11-25T05:00:00+08:00",
+        "end": "2026-12-23T11:00:00+08:00",
         "endNote": "森空岛 WIKI 倒计时换算（当前版本活动结束）"
       },
       "pools": [
+        {
+          "name": "锻砧、行囊与蜜糖",
+          "type": "character",
+          "start": "",
+          "end": "2026-12-23T11:00:00+08:00",
+          "featured": []
+        },
         {
           "name": "烟火邀星河",
           "type": "character",
@@ -285,7 +292,7 @@
       "updateRef": "B站 UP 罗德岛蜜饼工坊 / 逻辑元（版本排期参考）",
       "confidence": "auto",
       "note": "寻访与剩余时间由 tools/fetch_endfield.py 从森空岛 WIKI 自动同步",
-      "updatedAt": "2026-11-24"
+      "updatedAt": "2026-11-25"
     },
     {
       "id": "nikki",
